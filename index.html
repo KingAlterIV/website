@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KingAlterIV's website</title>
+    <meta name="description" content="This is a beta website.">
+    <meta name="keywords" content="Beta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://cdn.rawgit.com/leonardosnt/mc-player-counter/1.1.0/dist/mc-player-counter.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/30155533f0.js"></script>
+    <script type="text/javascript" src="js/ss.js"></script>
+    <script type="text/javascript">
+        function mobile() {
+            var bars = document.getElementById("mnav");
+            if(bars.className === "mnav") {
+                bars.className += " responsive";
+            } else {
+                bars.className = "mnav";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul class="nav-items" id="nav-items">
+                <li onclick="mobile()" class="icon fa fa-bars fa-2x"></li>
+                <li class="h">
+                    <div class="overlay"></div>
+                    <a href="#main">Home</a>
+                </li>
+                <li class="h">
+                    <div class="overlay"></div>
+                    <a href="#skripts">Skript(s)</a>
+                </li>
+                <li class="h">
+                  <div class="overlay"></div>
+                  <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="mnav" id="mnav">
+                <li class="i">
+                    <a href="#main">Home</a>
+                </li>
+                <li class="i">
+                    <a href="#skripts">Skript(s)</a>
+                </li>
+                <li class="i">
+                  <a href="#contact">Contact</a>
+                </li>
+            </div>
+        </div>
+        <div class="hero" id="main">
+            <h1>Welcome to my website.</h1>
+            <p class = "info">This site is still in <span>beta</span></p>
+        </div>
+    </header>
+    <div id="skripts">
+      <h2>Some of my skripts</h2>
+      <div class="game e">
+        <div>
+          <h3>Lag Monitor</h3>
+          <p>Lag Monitor is a skript where it shows the basic information of your server. It includes OS stuff, Java stuff, ram, tps, mc version, and plugins. Its based on <a href="https://www.spigotmc.org/resources/lagmonitor.21348/" style="color:GoldenRod;">LagMonitor</a>. It only requires <a href="https://github.com/bensku/Skript/releases" style="color:GoldenRod;">Skript</a> and <a href="https://github.com/btk5h/skript-mirror/releases" style="color:GoldenRod;">skript-mirror</a>. Its recommended for 1.9+ only, because I don't support versions below 1.9</p>
+        </div>
+        <img alt="Lag Monitor" class="gimg a" src="img/lag_monitor2.png">
+      </div>
+
+      <hr>
+
+      <div class="game f">
+        <div>
+          <h3>Player Clients</h3>
+          <p>Player Clients is a skript where it shows the version your players are on. It'll show the version number, players online using the version, the percentage of the version usage out of the users in the server, and the usernames of the people using the versions. It requires <a href="https://www.spigotmc.org/resources/protocolsupport.7201/" style="color:GoldenRod;">ProtocolSupport</a>, <a href="https://github.com/bensku/Skript/releases" style="color:GoldenRod;">Skript</a>, and <a href="https://github.com/btk5h/skript-mirror/releases" style="color:GoldenRod;">skript-mirror</a>.</p>
+        </div>
+        <img alt="MyServer Factions Server" class="gimg b" src="img/client2.2.png">
+      </div>
+
+      <hr>
+
+      <div class="game g">
+      </div>
+    </div>
+    <div id="contact">
+      <h2>Contact Us</h2>
+      <p>Discord - 🎄 KingAlterIV 🎄#1808<p>
+      <p>SkUnity - <a href="https://www.spigotmc.org/resources/protocolsupport.7201/" style="color:GoldenRod;">https://discord.gg/0l3WlzBPKX7WNjkf</a></p>
+      <p></p>
+    </div>
+  <footer>
+    <div>
+      <p>Copyright &copy; KingAlterIV 2017-2018</p>
+    </div>
+    <div>
+      <p>Created by <a href="https://bybilly.uk">ByBilly</a></p>
+    </div>
+  </footer>
