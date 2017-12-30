@@ -190,40 +190,40 @@ h2 {
 	letter-spacing: 1.2px;
 }
 
-/* Our Games */
+/* Our Skript css */
 
-#games {
+#skripts {
 	color: white;
 	background: #24272b;
 }
 
-.gimg {
+.skriptsimg {
 	width: 100%;
 	align-self: center;
 }
 
-.game {
+.skripts {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 40px 50px;
 }
 
-#games h2,
-.game h3 {
+#skripts h2,
+.skripts h3 {
 	letter-spacing: 1.2px;
 }
 
-#games h2 {
+#skripts h2 {
 	margin: 0;
 	padding: 40px 0 0 0;
 }
 
-.game h3 {
+.skripts h3 {
 	font-size: 1.6em;
 }
 
-.game div {
+.skripts div {
 	margin: 0 30px;
 	font-size: 0.95em;
 	line-height: 1.4em;
@@ -309,21 +309,6 @@ hr {
 	margin: 0 30px;
 }
 
-/* Contact Us */
-
-#contact {
-	margin: 50px 30px;
-	text-align: center;
-}
-
-#contact h2 {
-	margin-top: 8px;
-}
-
-#contact p {
-	font-size: 0.9em;
-}
-
 /* Footer */
 
 footer {
@@ -381,16 +366,16 @@ footer a {
 	.gimg {
 		width: 40%;
 	}
-	.game {
+	.skripts {
 		flex-wrap: nowrap;
 	}
 	.f {
 		flex-direction: row-reverse;
 	}
-	.game h3 {
+	.skripts h3 {
 		font-size: 1.8em;
 	}
-	.game div {
+	.skripts div {
 		line-height: 1.5;
 		font-size: 1.15em;
 	}
@@ -433,27 +418,3 @@ footer a {
 	}
 }
 
-#skripts {
-	color: white;
-	background: #24272b;
-}
-
-#skripts h2,
-.skripts h3 {
-	letter-spacing: 1.2px;
-}
-
-#skripts h2 {
-	margin: 0;
-	padding: 40px 0 0 0;
-}
-
-.skripts h3 {
-	font-size: 1.6em;
-}
-
-.skripts div {
-	margin: 0 30px;
-	font-size: 0.95em;
-	line-height: 1.4em;
-}
